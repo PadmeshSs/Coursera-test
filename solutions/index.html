@@ -2,9 +2,114 @@
 <html>
 <head>
  <meta charset="utf-8">
- <title>Sample webpage</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Menu</title>
+ <style>
+ *{
+ 	box-sizing: border-box;
+ }
+
+ h1{
+ 	text-align: center;
+ 	margin-bottom:50 px;
+ 	font-size: 1.75em;
+ }
+
+section{
+	border: 1px solid black;
+	background-color:grey;
+	font-family: comic sans ms;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+
+p{
+
+	padding: 15px;
+	text-align: left;
+	margin: 10px 0 10px 0;
+	clear: right;
+}
+
+#div1{
+	border: 1px solid black;
+	background-color: peachpuff;
+	text-align: center;
+	font-size: 1.25em;
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#div2{
+	border: 1px solid black;
+	background-color: red;
+	font-size: 1.25em;
+	float: right;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+#div3{
+	border: 1px solid black;
+	background-color: lightyellow;
+	font-size: 1.25em;
+	margin-top: 0;
+	float: right;
+	margin-bottom: 0;
+
+}
+
+.row{
+	width: 100%;
+}
+
+@media (min-width: 992px){.col-lg-4{
+	float: left;	
+	}
+    .col-lg-4{
+    	width: 32%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){.col-md-6, .col-md-12{
+	float: left;
+	}
+	.col-md-6{
+		width:  48%;
+	}
+    .col-md-12{
+    	width: 97%;
+    }
+}
+ </style>
 </head>
 <body>
-<p>it works!</p>
+
+<h1>Our Menu</h1>
+<div class="row">
+	<section class="col-lg-4 col-md-6">
+		<h2 id="div1">Chicken</h2>
+		<p>
+			Lorem ipsum dolor sit amet. Est laudantium repudiandae est illo esse aut dolorum quisquam rem atque minima hic dolorem quia. Sit fugiat illum est molestias porro est atque omnis ad odit odio eum tempore maxime.
+	    </p>
+    </section>
+    <section class="col-lg-4 col-md-6">
+	    <h2 id="div2">Beef</h2>
+	    <p>
+	 	    Lorem ipsum dolor sit amet. Est laudantium repudiandae est illo esse aut dolorum quisquam rem atque minima hic dolorem quia. Sit fugiat illum est molestias porro est atque omnis ad odit odio eum tempore maxime.
+	    </p>
+    </section>
+    <section class="col-lg-4 col-md-12">
+	    <h2 id="div3">Sushi</h2>
+	    <p>
+	 	    Lorem ipsum dolor sit amet. Est laudantium repudiandae est illo esse aut dolorum quisquam rem atque minima hic dolorem quia. Sit fugiat illum est molestias porro est atque omnis ad odit odio eum tempore maxime.
+	    </p>
+    </section>
+</div>
 </body>
 </html> 

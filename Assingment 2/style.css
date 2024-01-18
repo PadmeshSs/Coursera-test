@@ -1,0 +1,85 @@
+/* Start of header*/
+
+.heading{
+	font-weight: bold;
+	font-family: comic sans ms, cursive;
+	color: black;
+	font-size: 1.6em;
+}
+
+.navbar-brand{
+	padding: 15px;
+	margin: 10px;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-default{
+	background-color: grey;
+	border: 2px solid black;
+	border-radius: 0px;
+}
+
+.navbar-header button.navbar-toggle{
+	border-color: black;
+	border: 2px solid black;
+	margin-top: 15px;
+}
+
+.navbar-default button.navbar-toggle .icon-bar{
+	background-color: black;
+	height: 3px;
+}
+
+#n:hover, #n:focus{
+	border: 2px solid #ddd;
+	background-color: grey;
+}
+
+#n:hover .icon-bar, #n:focus .icon-bar{
+	background-color: #ddd;
+}
+
+#nav-list{
+	margin: 0;
+	padding: 0;
+}
+
+#collapsable-nav{
+	padding: 0;
+}
+
+#c, #s, #b{
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+#c:hover, #s:hover, #b:hover{
+	font-weight: bolder;
+}
+
+/*end of header*/
+
+/*start of mainbody*/
+
+h1{
+	margin-bottom: 20px;
+}
+
+#mainbody{
+	font-family: comic sans ms, cursive;
+}
+
+section{
+	background-color: grey;
+	text-align: left;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+
+/*end of mainbody*/

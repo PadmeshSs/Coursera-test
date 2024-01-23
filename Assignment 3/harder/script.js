@@ -41,12 +41,12 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
 for ( var i=0; i<names.length; i++ ) {
-  if (names[i].charAt(0)== 'j' || names[i].charAt(0)=="J"){
-    console.log(byespeaker.speak(names[i]));
+  if (names[i].charAt(0) == 'j' || names[i].charAt(0) =="J"){
+    byespeaker.speak(names[i]);
   }
   
   else{
-    console.log(hellospeaker.speak(names[i]));
+    hellospeaker.speak(names[i]);
   }
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
